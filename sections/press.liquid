@@ -1,0 +1,102 @@
+<section class="press-gallery">
+  
+  <div class="container-slider flex items-center justify-center p-4 {% if section.settings.top_border %}border-top{% endif %}">
+    {% for block in section.blocks %}
+      <div class="{% unless forloop.index == 1 %}hidden{% endunless %} text-center">
+        <h2 class="text-2xl">{{ block.settings.title }}</h2>
+    </div>
+    {% endfor %}
+  </div>
+  
+  <div class="container-press grid lg:grid-cols-{{ section.blocks.size }} gap-gutter bg-border border-t-grid {% if section.settings.bottom_border %}border-b-grid{% endif %} border-grid-color">
+    {% for block in section.blocks %}
+  	<div class="{% if forloop.index == 1 %} bg-primary-accent{% else %} bg-primary-background{% endif %} m-auto p-4 w-full cursor-pointer flex align-center h-full" onclick="currentSlide({{ forloop.index }})">
+      {%- assign image = block.settings.logo -%}
+      {% comment %} {% render 'image-crop' with
+        image: image,
+        ratio: 0
+      %}       {% endcomment %}
+      <img class="lazyloaded m-auto" loading="lazy" src="{{ image | img_url: 'master'}}" style="max-height: 75px;">
+    </div>
+    {% endfor %}
+  </div>
+
+</section>
+
+<script type="text/javascript">
+  let intervalID = setInterval(titleSlider, 4000);
+  let index = 0, slides = document.querySelectorAll('.container-slider > div'), press = document.querySelectorAll('.container-press > div'), size = {{ section.blocks.size }};
+
+  function titleSlider() {
+    slides[index % size].classList.add('hidden');
+    slides[(index + 1) % size].classList.remove('hidden');
+
+    press[index % size].classList.remove('bg-primary-accent');
+    press[index % size].classList.add('bg-primary-background');
+    press[(index + 1) % size].classList.remove('bg-primary-background');
+    press[(index + 1) % size].classList.add('bg-primary-accent');
+
+    index ++;
+  }
+
+  function currentSlide(curIndex) {
+    slides.forEach((el) => {
+      el.classList.add('hidden');
+    });
+    slides[curIndex - 1].classList.remove('hidden');
+
+    press.forEach((el) => {
+      el.classList.remove('bg-primary-accent');
+      el.classList.add('bg-primary-background');
+    });
+    press[curIndex - 1].classList.remove('bg-primary-background');
+    press[curIndex - 1].classList.add('bg-primary-accent');
+
+    index = curIndex - 1;
+  }
+</script>
+
+{% schema %}
+  {
+    "name": "Press",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Border"
+      },
+      {
+        "type": "checkbox",
+        "id": "top_border",
+        "label": "Top Border",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "bottom_border",
+        "label": "Bottom Border",
+        "default": false
+      }
+    ],
+    "blocks": [
+      {
+        "type": "press",
+        "name": "Press",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "logo"
+          }
+        ]
+      }
+    ],
+    "presets": [{
+      "name": "Press"
+    }]
+  }
+{% endschema %}

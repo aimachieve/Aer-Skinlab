@@ -1,0 +1,183 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "lg:w-full",
+        "content_position": "lg:justify-start",
+        "color_scheme": "primary",
+        "override_header_footer_color_scheme": false
+      }
+    },
+    "16412518202abd4676": {
+      "type": "our-team",
+      "blocks": {
+        "1641251820aef546f8-1": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "reverse": false,
+            "image": "shopify:\/\/shop_images\/CHARLESCROP.jpg",
+            "title": "Dr. Charles H. Scudamore",
+            "text": "<p>MD MSc FACS FRCSC FRCS<\/p><p><em>Medical Director<\/em><br\/><br\/>Dr. Charles Scudamore’s charismatic yet personable approach to aesthetic procedures demonstrates his love for artistry, his wealth of technical knowledge, and genuine desire to help people achieve their best physical appearance. His style is focused on a natural look, emphasizing an enhanced, yet realistic version of oneself with a specialty in Aptos® thread lifts.<\/p><p>natural | elegant | understated beauty  <\/p><p>The prestigious titles that follow Dr. Scudamore’s name are not immediately apparent given his understated nature, but are the keys to unlock his professional tapestry of experience. A delve beneath the surface of Dr. Scudamore’s history unearths a true depth of character that one would never imagine; a career full of groundbreaking firsts, awards, accolades and a CV that reads like an anthology of greatest hits which includes an <a href=\"https:\/\/orderofbc.gov.bc.ca\/2013-recipient-dr-charles-scudamore-vancouver\/\" target=\"_blank\" title=\"https:\/\/orderofbc.gov.bc.ca\/2013-recipient-dr-charles-scudamore-vancouver\/\">Order of B.C.<\/a> & <a href=\"https:\/\/news.gov.bc.ca\/releases\/2013HLTH0032-000327\" target=\"_blank\" title=\"https:\/\/news.gov.bc.ca\/releases\/2013HLTH0032-000327\">Queen Elizabeth II Diamond Jubilee Medal<\/a> on the set list.<\/p><p>Dr. Scudamore began his symphonic career at the University of British Columbia where he obtained his B.Sc., M.D. and M.Sc. in surgery. His passion for aesthetic medicine, cosmetic surgery combined with the eyes, mind and hands for precision had his life path destined for plastic surgery. Fortunately for the many people Dr. Scudamore has helped in the last 40 years, a change of fate had him hold that passion a fermata like a beautiful note before the next grand movement. The next grand movement for Dr. Scudamore’s was to utilize his talents for advanced surgery.<\/p><p>A successful career as the lead surgeon at Vancouver General Hospital, an Associate Professor at the University of British Columbia, fellowship with the Royal College of Physicians (FRCP), American College of Surgeons (FACS), Royal College of Surgeons of Canada (FRCSC), and numerous publications has earned Dr. Scudamore the freedom to return to his original love of aesthetic medicine for his finale. Returning with an experienced, yet fresh perspective, and the ability to transcend the superficial to deliver beautifully executed results.<\/p><p>Dr. Scudamore’s expansive medical knowledge, technical expertise, and mentality for excellence are a perfect fit for the role of Medical Director for AE.R Skinlab. Dr. Scudamore is versed in the advance application of injectibles and technologies that include BOTOX® Cosmetic, BOTOX® Therapeutic, Dysport®, XEOMIN®, JUVÉDERM®, Restylane® and Perlane®, Sculptra®, Teosyal®, Restylane®, Belkyra™. CoolSculpting®, truSculpt FLEX PLUS, truSculpt iD, Thermage®, Ultherapy®, WorldPRP™ and more.<\/p><p><em>Transcend the superficial<\/em><\/p><p><em>Precision + Artistry + Knowledge = re:form your skin<\/em><\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "primary"
+          }
+        },
+        "1641251820aef546f8-2": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "reverse": false,
+            "image": "shopify:\/\/shop_images\/SOPHIACROP.jpg",
+            "title": "Sophia",
+            "text": "<p><em>Director of Operations<\/em><br\/><br\/>A rare combination of skill in business development, management and artistic ability, Sophia Lee brings a strong and balanced skillset to AE.R Skinlab as Director of Operations.<\/p><p><\/p><p>Sophia brings a plethora of experience in the aesthetics world. With over 11 years experience in the industry, including Clinic Director at Project Skin MD® (Dermapure) as well as Clinic Director at Hush by Dr. Rose.<\/p><p><\/p><p>Equipped with knowledge in the latest treatments, products and technology, Sophia is an expert in<br\/>consulting our procedures and product lineup in English, Mandarin, Cantonese and Taiwanese.<\/p><p><br\/>Sophia’s personable yet efficient nature makes her an expert at managing client and staff relationships for a smooth and enjoyable experience.<br\/><\/p><p>Sophia’s background in visual art and graphic design brings another dimension to her abilities for AE.R<br\/>Skinlab. She is a graduate from the University of Victoria in Fine Arts: Visual Arts with 10 years of graphic design experience. This led to product development, manufacturing, branding and operations for Di Morelli Skincare. <\/p><p><\/p><p>Her level of experience in the industry is a key component for development of our proprietary Vancouver manufactured AE.R Skin product line.<\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "primary"
+          }
+        },
+        "1641251820aef546f8-0": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "reverse": true,
+            "image": "shopify:\/\/shop_images\/CHARISSACROP.jpg",
+            "title": "Charissa",
+            "text": "<p><em>Aesthetic Injector<\/em><br\/><br\/>Charissa graduated with a Bachelor of Science in Nursing (BSN), and has worked in a variety of different medical settings under the highest of pressures. <\/p><p><br\/><\/p><p>Well versed in aesthetic medicine, Charissa is one of our lead bilingual injectors at AE.R. <\/p><p><br\/><\/p><p>Her favourite treatment is Lip Filler; so if you’re looking to enhance your natural lips, make sure to book in with Charissa. <\/p><p><br\/><\/p><p>Outside of work, Charissa enjoys playing Ultimate Frisbee, and dining out. <\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "primary"
+          }
+        },
+        "f004aa96-acc1-43b9-8e21-edfc80e07293": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "reverse": true,
+            "image": "shopify:\/\/shop_images\/LEXICROP.jpg",
+            "title": "Lexi",
+            "text": "<p><em>Aesthetic Injector<\/em><br\/><br\/>Lexi has a Bachelor of Science in Nursing (BSN) and is one of the lead Aesthetic Injectors at AE.R. With years of experience in he aesthetic industry on the Westcoast, Lexi brings to AE.R precise results. From the Emergency Room to the Medical Room, Lexi has worked in high pressure environments, and brings with her a calm and reassuring perspective to all of her clients. <\/p><p><br\/><\/p><p>Lexi’s favourite treatment is Cheek Fillers, so check with her to see how she can help accentuate your natural beauty.<\/p><p><br\/><\/p><p>Working out at the gym, or exercising outdoors, is where you’ll find her outside of the clinic. Her passion for a healthy lifestyle is immediately apparent when you meet her.<\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "primary"
+          }
+        },
+        "85e30864-0857-4ca5-b016-4196a8ebbb28": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "reverse": false,
+            "image": "shopify:\/\/shop_images\/JULIECROP2.jpg",
+            "title": "Julie",
+            "text": "<p><em>Aesthetic Injector & Technician<\/em><br\/><br\/>Born in Korea, Julie is one of our aesthetic injectors and technicians that is also bilingual. <\/p><p>Julie has a Bachelor of Science in Nursing, as well as a Laser degree. <\/p><p>Her passion for working with her clients to achieve their aesthetic goals shows in everything she does. <\/p><p><\/p><p>A \"foodie\" by hobby, Julie enjoys cooking and eating out.<\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "primary"
+          }
+        },
+        "1515a33f-ad61-4840-87dc-36da78dd0dbf": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "reverse": false,
+            "image": "shopify:\/\/shop_images\/SHARMY1.jpg",
+            "title": "Sharmy",
+            "text": "<p><em>Senior Technician<\/em><br\/><br\/>With over 15 years of experience as a technician between Shenzhen, China, and Vancouver, she brings a level of confidence that isn’t taught, but earned over time.<\/p><p><br\/><\/p><p>As one of our senior bilingual technicians here at AE.R, Sharmy brings with her a wealth of knowledge on all our modes of treatments and services.<\/p><p><br\/><\/p><p>Sharmy’s favourite treatment is Thermage; so make sure you get to experience that with her.<\/p><p><br\/><\/p><p>When Sharmy isn’t at the clinic, you can usually catch her living an active lifestyle of running, bike riding, or hot yoga.<\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "primary"
+          }
+        },
+        "f14e606d-c95d-4fb0-a8d3-209a6b475a82": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "reverse": true,
+            "image": "shopify:\/\/shop_images\/MICHELLECROP.jpg",
+            "title": "Michelle",
+            "text": "<p><em>Product Specialist<\/em><br\/><br\/>A graduate of JCI Institute, Michelle lives and breathes the beauty industry. Certified in Skinceuticals and ZO Skin Health, Michelle can assess and design a specific skin regimen for anyone that needs direction.<\/p><p><br\/><\/p><p>Being bilingual has also allowed her to communicate with all patients effortlessly and seamlessly, giving patients the most utmost care.<\/p><p><br\/><\/p><p>When Michelle isn’t at work, you’ll find her either studying up on Cosmetic Chemistry, or teaching Piano lessons.<\/p><p><\/p><p><\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "primary"
+          }
+        },
+        "1c97013c-2240-4495-960a-1c7b45fc3ce3": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "reverse": true,
+            "image": "shopify:\/\/shop_images\/GRACECROP.jpg",
+            "title": "Grace",
+            "text": "<p><em>Communications Coordinator<\/em><br\/><br\/>A graduate from the University of British Columbia, Grace is our Communications Coordinator, and our Asian marketing strategist. With years of experience in the beauty industry, Grace has a passion for aesthetics and all things fashion.<\/p><p><br\/><\/p><p>In her spare time, she has donated her time to philanthropic causes such as the Children’s Charity Association in Shanxi, China where she helped develop their fund-raising events program.<\/p><p><br\/><\/p><p>Grace’s favourite treatment is Thermage, so talk to her anytime about any treatments we offer and she will answer all your questions.<\/p><p><br\/><\/p><p>Outside of the clinic, you might be able to catch Grace on the golf course if you’re good enough to keep up with her.<\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "primary"
+          }
+        },
+        "adb5c78d-6b6c-46c0-a897-2171157911dc": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "reverse": false,
+            "image": "shopify:\/\/shop_images\/GEELDA2.jpg",
+            "title": "Geelda",
+            "text": "<p><em>Receptionist<\/em><br\/><br\/>Certified as a Laser Technician, Geelda brings a wealth of knowledge to AE.R at the front. With years of experience in the industry, Geelda’s technical knowledge is extensive.<\/p><p><br\/><\/p><p>Bilingual in Farsi and English, Geelda can facilitate any communication for those that may feel more comfortable in their mother tongue. <\/p><p><br\/><\/p><p>Geelda’s favourite treatment is the DP4 Microneedling, so call her any time to book a consult.<\/p><p><br\/><\/p><p>Outside of AE.R, she would probably consider herself to be a Gamer, as well as enjoying hiking and travelling.<\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "1641251820aef546f8-1",
+        "1641251820aef546f8-2",
+        "1641251820aef546f8-0",
+        "f004aa96-acc1-43b9-8e21-edfc80e07293",
+        "85e30864-0857-4ca5-b016-4196a8ebbb28",
+        "1515a33f-ad61-4840-87dc-36da78dd0dbf",
+        "f14e606d-c95d-4fb0-a8d3-209a6b475a82",
+        "1c97013c-2240-4495-960a-1c7b45fc3ce3",
+        "adb5c78d-6b6c-46c0-a897-2171157911dc"
+      ],
+      "settings": {
+        "title": "",
+        "crop": "0.8",
+        "text_alignment": "text-left",
+        "hide_borders": true,
+        "cta_style": "link",
+        "text_size_mobile": "text-base"
+      }
+    },
+    "1655739602e4767bfa": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/EDIT2.jpg",
+        "image_position": "right",
+        "image_size": "half",
+        "indent_image": true,
+        "fill_image": false,
+        "hide_borders": true,
+        "background_color": "primary",
+        "title": "",
+        "richtext": "<p><em>Frederik Salari & Michael Wong<\/em><\/p><p><em>Founders<\/em><\/p><p><strong><br\/><\/strong>AE.R or “Aesthetic Re:form” was envisioned by Frederik Salari and Michael Wong as both a culmination and reflection of their life experiences. <\/p><p>A journey to South Korea over 12 years ago would serve as a groundbreaking and formative experience in the cosmetic and medical field.<\/p><p>Mr. Salari’s background in pharmaceuticals was complemented by Mr. Wong’s background in design & art leading to the formation of the AE.R brand with emphasis on detail and natural beauty. <\/p>",
+        "text_size": "text-base",
+        "font": "body",
+        "text_alignment": "text-left",
+        "text_position": "items-center",
+        "color_scheme": "primary",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_style": "link",
+        "cta_rounded": false,
+        "cta_gradient": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16412518202abd4676",
+    "1655739602e4767bfa"
+  ]
+}

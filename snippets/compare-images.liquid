@@ -1,0 +1,41 @@
+{%- assign modifier = modifier | default: '' -%}
+
+<div class="compare {{ modifier }}" data-images-holder-{{ section.id }} data-start-position="50%" data-aos="img-in" data-aos-anchor="{{ animation_anchor }}" data-aos-duration="800" data-aos-easing="ease-out-quart">
+  <div class="compare__image">
+    <div class="compare__image__holder">
+      {% render 'responsive-image' with image: section.settings.before_image %}
+    </div>
+  </div>
+  
+  <div class="compare__image" data-image-holder-{{ section.id }}>
+    <div class="compare__image__holder" data-image-element-{{ section.id }}>
+      {% render 'responsive-image' with image: section.settings.after_image %}
+    </div>
+  </div>
+
+  <input type="range" min="0" max="100" value="50" class="absolute appearance-none w-full h-full m-0 left-0 top-0 z-10 opacity-0 cursor-move" name='slider' id="compare_slider-{{ section.id }}">
+  <div class="compare__btn top-1/2 absolute" data-compare-btn-{{ section.id }}></div>
+</div>
+
+<script type="text/javascript">
+  let compareHolder_{{ section.settings.before_image.id }} = document.querySelector('[data-images-holder-{{ section.id }}]'),
+      secondHolderInner_{{ section.settings.before_image.id }} = document.querySelector('[data-image-element-{{ section.id }}]'),
+      handleHolder_{{ section.settings.before_image.id }} = document.querySelector('#compare_slider-{{ section.id }}'),
+      secondHolder_{{ section.settings.before_image.id }} = document.querySelector('[data-image-holder-{{ section.id }}]'),
+      compareBtn_{{ section.settings.before_image.id }} = document.querySelector('[data-compare-btn-{{ section.id }}]');
+      secondHolderInner_{{ section.settings.before_image.id }}.style.width = `${ compareHolder_{{ section.settings.before_image.id }}.offsetWidth }px`;
+      secondHolder_{{ section.settings.before_image.id }}.style.width = `${ 100 - handleHolder_{{ section.settings.before_image.id }}.value }%`;
+      compareBtn_{{ section.settings.before_image.id }}.style.left = `calc(${ handleHolder_{{ section.settings.before_image.id }}.value }% - 25px)`;
+  if ( compareHolder_{{ section.settings.before_image.id }}.offsetWidth >= 1903 ) {
+    secondHolderInner_{{ section.settings.before_image.id }}.style.width = `${ secondHolder_{{ section.settings.before_image.id }}.offsetWidth }px`;
+  };
+
+  handleHolder_{{ section.settings.before_image.id }}.addEventListener('input', (e) => {
+    secondHolder_{{ section.settings.before_image.id }}.style.width = `${ 100 - e.target.value }%`;
+    compareBtn_{{ section.settings.before_image.id }}.style.left = `calc(${ e.target.value }% - 25px)`;
+  });
+
+  window.onresize = () => {
+    secondHolderInner_{{ section.settings.before_image.id }}.style.width = `${ compareHolder_{{ section.settings.before_image.id }}.offsetWidth }px`;
+  }
+</script>
